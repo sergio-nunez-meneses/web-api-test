@@ -17,7 +17,7 @@ function response() {
     for (let [index, contents] of Object.entries(obj)) {
       if (typeof contents === 'object') {
         for (let [i, c] of Object.entries(contents)) {
-          console.log(i, c);
+          // console.log(i, c);
           if (i === 'temp') {
             temperatures.push(c);
           }
@@ -43,7 +43,7 @@ function chart() {
       data: {
           labels: cities,
           datasets: [{
-              label: 'Current Temperature',
+              label: 'Current Temperature in Chile',
               data: temperatures,
               backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
