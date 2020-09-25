@@ -1,0 +1,21 @@
+body {
+  font-family: arial;
+}
+
+.title {
+  padding: 0.5rem;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 90vw;
+  margin: auto;
+  position: relative;
+}
